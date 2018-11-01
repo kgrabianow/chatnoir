@@ -1,0 +1,65 @@
+
+body { 
+	text-align: center;
+}
+
+#content{
+	text-align: center;
+}
+
+.description_div{
+	padding: 5px 5px 5px 5px;
+	margin: 5px 5px 5px 5px;
+	border: solid 1px black;
+	min-width: 125px;
+	max-width: 125px;
+	text-align: center;
+	display: inline-block;
+}
+
+.description_div > span{
+	font-weight: bold;
+}
+
+.unavaible_div{
+	background-color: silver;
+	color: grey;
+}
+
+.unavaible_div:hover{
+	cursor: not-allowed;
+}
+
+.avaible_div{
+	background-color: lightblue;
+	color: black;
+}
+
+.avaible_div:hover{
+	background-color: blue;
+	font-weight: bold;
+	color: white;
+	cursor: pointer;
+}
+
+.button_div{
+	background-color: silver;
+	color: black;
+}
+
+.button_div:hover{
+	background-color: grey;
+	font-weight: bold;
+	color: white;
+	cursor: pointer;
+}
+
+#wins{
+	min-width: 75px;
+	max-width: 100px;	
+}
+
+#loses{
+	min-width: 75px;
+	max-width: 100px;	
+}
